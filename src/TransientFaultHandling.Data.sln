@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{A6E6163C-39BE-40AA-94D9-052B2BC26F69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Data", "Components\TransientFaultHandling.Data.csproj", "{5AF4222C-12D1-4735-8993-57E6611168D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45CC1730-DE55-4518-A2A8-3C8C2D38692C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientFaultHandling.TestSupport", "Tests\TransientFaultHandling.TestSupport\TransientFaultHandling.TestSupport.csproj", "{BF660C02-400E-4230-B8F1-9AB48B164EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientFaultHandling.Tests", "Tests\TransientFaultHandling.Tests\TransientFaultHandling.Tests.csproj", "{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransientFaultHandling.Core.Tests", "Tests\TransientFaultHandling.Core.Tests\TransientFaultHandling.Core.Tests.csproj", "{A954B853-8B69-401B-BE1E-F9984AF68BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF4222C-12D1-4735-8993-57E6611168D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF4222C-12D1-4735-8993-57E6611168D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF4222C-12D1-4735-8993-57E6611168D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF4222C-12D1-4735-8993-57E6611168D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AF4222C-12D1-4735-8993-57E6611168D9} = {A6E6163C-39BE-40AA-94D9-052B2BC26F69}
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF} = {45CC1730-DE55-4518-A2A8-3C8C2D38692C}
+		{851D1031-8E5C-40F7-9D4C-CEE71BCD82A8} = {45CC1730-DE55-4518-A2A8-3C8C2D38692C}
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0} = {45CC1730-DE55-4518-A2A8-3C8C2D38692C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08C1B354-9E0B-4B8C-8585-9A61BB593E18}
+	EndGlobalSection
+EndGlobal

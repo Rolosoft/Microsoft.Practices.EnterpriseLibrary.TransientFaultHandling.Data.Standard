@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIconUrl>https://rolosoft.blob.core.windows.net/common/rolosoft128x128.png</PackageIconUrl>
+    <PackageTags>entlib entlib6 enterprise library elazure Windows Azure block cloud retry retries transient fault exception handling failure network topaz async SQL database sqlazure</PackageTags>
+    <PackageReleaseNotes>Initial commit.</PackageReleaseNotes>
+    <Company>Rolosoft</Company>
+    <Copyright>Copyright © Rolosoft 2017</Copyright>
+    <Description>Enterprise Library Transient Fault Handling Application Block</Description>
+    <Authors>Rolosoft</Authors>
+    <PackageProjectUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Rolosoft/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.Standard</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <Product>Enterprise Library Transient Fault Handling Application Block</Product>
+    <RootNamespace>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</RootNamespace>
+    <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data</AssemblyName>
+    <PackageId>Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data</PackageId>
+    <Version>7.0.0</Version>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net461'">
+    <Reference Include="System.Transactions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rolosoft.EnterpriseLibrary.TransientFaultHandling.Standard" Version="7.0.0" />
+    <PackageReference Include="Rolosoft.Practices.EnterpriseLibrary.Common.Standard" Version="7.0.0-preview1-00002" />
+    <PackageReference Include="Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.Standard" Version="7.0.0-preview1-00000" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
