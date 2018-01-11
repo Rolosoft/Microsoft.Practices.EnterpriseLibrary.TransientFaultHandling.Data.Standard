@@ -43,13 +43,13 @@
       <HintPath>..\..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=96b620a161ffdc8e, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rolosoft.Practices.EnterpriseLibrary.Common.Standard.7.0.0-preview1-00002\lib\net461\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+      <HintPath>..\..\packages\Rsft.EntLib.Common.Standard.7.0.0\lib\net461\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling, Version=7.0.0.0, Culture=neutral, PublicKeyToken=6dd68382106cc67e, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rolosoft.EnterpriseLibrary.TransientFaultHandling.Standard.7.0.0\lib\net461\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
+      <HintPath>..\..\packages\Rsft.EntLib.TransientFaultHandling.Standard.7.0.0\lib\net461\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b84776fc586e4cef, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.Standard.7.0.0-preview1-00000\lib\net461\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.dll</HintPath>
+      <HintPath>..\..\packages\Rsft.EntLib.TransientFaultHandling.Config.Standard.7.0.0\lib\net461\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Moq, Version=4.8.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">

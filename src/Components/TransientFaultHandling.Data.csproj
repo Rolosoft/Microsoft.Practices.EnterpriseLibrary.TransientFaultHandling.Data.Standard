@@ -16,7 +16,7 @@
     <Product>Enterprise Library Transient Fault Handling Application Block</Product>
     <RootNamespace>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling</RootNamespace>
     <AssemblyName>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data</AssemblyName>
-    <PackageId>Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data</PackageId>
+    <PackageId>Rsft.EntLib.TransientFaultHandling.Data</PackageId>
     <Version>7.0.0</Version>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.snk</AssemblyOriginatorKeyFile>
@@ -35,9 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Rolosoft.EnterpriseLibrary.TransientFaultHandling.Standard" Version="7.0.0" />
-    <PackageReference Include="Rolosoft.Practices.EnterpriseLibrary.Common.Standard" Version="7.0.0-preview1-00002" />
-    <PackageReference Include="Rolosoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.Standard" Version="7.0.0-preview1-00000" />
+    
+    <PackageReference Include="Rsft.EntLib.TransientFaultHandling.Config.Standard" Version="7.0.0" />
+    
+    <PackageReference Include="Rsft.EntLib.TransientFaultHandling.Standard" Version="7.0.0" />
+    
     <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
   </ItemGroup>
 
