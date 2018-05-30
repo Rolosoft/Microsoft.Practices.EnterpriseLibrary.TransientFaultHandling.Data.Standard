@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageIconUrl>https://rolosoft.blob.core.windows.net/common/rolosoft128x128.png</PackageIconUrl>
     <PackageTags>entlib entlib6 enterprise library elazure Windows Azure block cloud retry retries transient fault exception handling failure network topaz async SQL database sqlazure</PackageTags>
-    <PackageReleaseNotes>Initial commit.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated packages.</PackageReleaseNotes>
     <Company>Rolosoft</Company>
     <Copyright>Copyright © Rolosoft 2017</Copyright>
     <Description>Enterprise Library Transient Fault Handling Application Block</Description>
@@ -35,12 +35,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    
-    <PackageReference Include="Rsft.EntLib.TransientFaultHandling.Config.Standard" Version="7.0.0" />
-    
+    <PackageReference Include="Rsft.EntLib.TransientFaultHandling.Config.Standard" Version="7.0.1" />
     <PackageReference Include="Rsft.EntLib.TransientFaultHandling.Standard" Version="7.0.0" />
-    
-    <PackageReference Include="System.Data.SqlClient" Version="4.4.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
